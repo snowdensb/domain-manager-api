@@ -34,6 +34,7 @@ services:
     image: browserless/chrome:latest
     container_name: dm-browserless
     ports:
+<<<<<<< HEAD
       - "3001:3000"
     env_file:
       - .env
@@ -41,6 +42,15 @@ services:
       - backend
 volumes:
   mongodb_data:
+=======
+      - target: 8080
+        published: 8080
+        protocol: tcp
+        mode: host
+    secrets:
+      - source: quote_txt
+        target: quote.txt
+>>>>>>> b1949f9b301eef109150dfcb1febfa376e3997d8
 
 networks:
   backend:
