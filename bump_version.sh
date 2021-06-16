@@ -6,7 +6,12 @@ set -o nounset
 set -o errexit
 set -o pipefail
 
+<<<<<<< HEAD
 VERSION_FILE=src/api/_version.py
+=======
+VERSION_FILE=src/version.txt
+README_FILE=README.md
+>>>>>>> ce74596cede721a672a18d2d1712bc0b360b8ea0
 
 HELP_INFORMATION="bump_version.sh (show|major|minor|patch|prerelease|build|finalize)"
 
@@ -25,7 +30,13 @@ else
       tmp_file=/tmp/version.$$
       sed "s/$old_version/$new_version/" $VERSION_FILE > $tmp_file
       mv $tmp_file $VERSION_FILE
+<<<<<<< HEAD
       git add $VERSION_FILE
+=======
+      sed "s/$old_version/$new_version/" $README_FILE > $tmp_file
+      mv $tmp_file $README_FILE
+      git add $VERSION_FILE $README_FILE
+>>>>>>> ce74596cede721a672a18d2d1712bc0b360b8ea0
       git commit -m"Bump version from $old_version to $new_version"
       git push
       ;;
@@ -37,7 +48,13 @@ else
       tmp_file=/tmp/version.$$
       sed "s/$old_version/$new_version/" $VERSION_FILE > $tmp_file
       mv $tmp_file $VERSION_FILE
+<<<<<<< HEAD
       git add $VERSION_FILE
+=======
+      sed "s/$old_version/$new_version/" $README_FILE > $tmp_file
+      mv $tmp_file $README_FILE
+      git add $VERSION_FILE $README_FILE
+>>>>>>> ce74596cede721a672a18d2d1712bc0b360b8ea0
       git commit -m"Bump version from $old_version to $new_version"
       git push
       ;;
