@@ -192,6 +192,17 @@ Stop containers
 |-------------|----------------|
 | `/var/log`  |  Log storage   |
 
+## Ports ##
+
+The following ports are exposed by this container:
+
+| Port | Purpose        |
+|------|----------------|
+| 8080 | Example only; nothing is actually listening on the port |
+
+The sample [Docker composition](docker-compose.yml) publishes the
+exposed port at 8080.
+
 ## Environment variables ##
 
 ### Required ###
