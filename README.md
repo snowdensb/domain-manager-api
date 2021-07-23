@@ -12,9 +12,18 @@ Domain Categorization and Management
 
 Get the right flavor of Docker for your OS...
 
+<<<<<<< HEAD
 - [Docker for Mac](https://docs.docker.com/docker-for-mac/install/)
 - [Docker for Ubuntu](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
 - [Docker for Windows](https://docs.docker.com/docker-for-windows/install/)
+=======
+This is a Docker skeleton project that can be used to quickly get a
+new [cisagov](https://github.com/cisagov) GitHub Docker project
+started.  This skeleton project contains [licensing
+information](LICENSE), as well as [pre-commit hooks](https://pre-commit.com)
+and [GitHub Actions](https://github.com/features/actions) configurations
+appropriate for Docker containers and the major languages that we use.
+>>>>>>> c6aa7f05b09191075d195f0743dd0f4d36f3920c
 
 <<<<<<< HEAD
 **Note:** The recommended requirement for deployment of this project is 4 GB RAM.
@@ -133,7 +142,7 @@ environment variables.  See the
 
 ### Docker Compose ###
 
-1. Pull the new image from Docker hub:
+1. Pull the new image from Docker Hub:
 
     ```console
     docker-compose pull

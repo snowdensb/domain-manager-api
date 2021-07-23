@@ -13,6 +13,7 @@ MAIN_SERVICE_NAME = "api"
 
 
 @pytest.fixture(scope="session")
+<<<<<<< HEAD
 def client():
     """Get fixture for client."""
     app.config["TESTING"] = True
@@ -21,10 +22,22 @@ def client():
     testing_client = app.test_client()
     ctx = app.app_context()
     ctx.push()
+=======
+def main_container(dockerc):
+    """Return the main container from the Docker composition."""
+    # find the container by name even if it is stopped already
+    return dockerc.containers(service_names=[MAIN_SERVICE_NAME], stopped=True)[0]
+>>>>>>> c6aa7f05b09191075d195f0743dd0f4d36f3920c
 
     yield testing_client
     ctx.pop()
 
+<<<<<<< HEAD
+=======
+@pytest.fixture(scope="session")
+def version_container(dockerc):
+    """Return the version container from the Docker composition.
+>>>>>>> c6aa7f05b09191075d195f0743dd0f4d36f3920c
 
 @pytest.fixture(scope="session")
 def main_container(dockerc):
