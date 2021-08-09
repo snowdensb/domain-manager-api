@@ -1,3 +1,7 @@
 {
-  "settingsInheritedFrom": "snowdensb/whitesource-config@main"
+  "settingsInheritedFrom": "snowdensb/whitesource-config@main",
+  "remediateSettings": {
+    "enableRenovate": false,
+    "extends": ["github>whitesource/merge-confidence:beta"]
+  }
 }
