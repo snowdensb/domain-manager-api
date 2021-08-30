@@ -78,7 +78,7 @@ toml==0.10.2
 traitlets==5.0.5
 TwoCaptcha==0.0.1
 typed-ast==1.4.3
-typing-extensions==3.10.0.0
+typing-extensions==3.10.0.2
 undetected-chromedriver==3.0.1
 urllib3==1.26.6
 validators==0.18.2
