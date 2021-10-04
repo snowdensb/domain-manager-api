@@ -111,7 +111,7 @@ repos:
 
   # Terraform hooks
   - repo: https://github.com/antonbabenko/pre-commit-terraform
-    rev: v1.45.0
+    rev: v1.52.0
     hooks:
       - id: terraform_fmt
       # There are ongoing issues with how this command works. This issue
