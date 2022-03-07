@@ -16,7 +16,7 @@ cognitojwt==1.4.1
 cryptography==3.4.7
 decorator==5.0.9
 distlib==0.3.2
-dnspython==2.1.0
+dnspython==2.2.1
 docutils==0.17.1
 ecdsa==0.17.0
 Faker==8.8.1
