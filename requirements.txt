@@ -34,7 +34,7 @@ ipython-genutils==0.2.0
 itsdangerous==2.0.1
 jedi==0.18.0
 Jinja2==3.0.1
-jmespath==0.10.0
+jmespath==1.0.0
 MarkupSafe==2.0.1
 marshmallow==3.12.1
 matplotlib-inline==0.1.2
