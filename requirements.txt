@@ -79,7 +79,7 @@ traitlets==5.0.5
 TwoCaptcha==0.0.1
 typed-ast==1.4.3
 typing-extensions==3.10.0.0
-undetected-chromedriver==3.0.1
+undetected-chromedriver==3.1.5.post4
 urllib3==1.26.6
 validators==0.18.2
 wcwidth==0.2.5
