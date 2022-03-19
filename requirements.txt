@@ -43,7 +43,7 @@ mongomock==3.23.0
 mypy-extensions==0.4.3
 nodeenv==1.6.0
 packaging==20.9
-paramiko==2.7.2
+paramiko==2.10.1
 parso==0.8.2
 pathspec==0.9.0
 pexpect==4.8.0
