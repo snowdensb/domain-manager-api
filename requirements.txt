@@ -36,7 +36,7 @@ jedi==0.18.0
 Jinja2==3.0.1
 jmespath==0.10.0
 MarkupSafe==2.0.1
-marshmallow==3.12.1
+marshmallow==3.16.0
 matplotlib-inline==0.1.2
 mccabe==0.6.1
 mongomock==3.23.0
