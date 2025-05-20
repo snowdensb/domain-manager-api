@@ -22,7 +22,7 @@ ecdsa==0.17.0
 Faker==8.8.1
 filelock==3.0.12
 Flask==2.0.1
-Flask-Cors==3.0.10
+Flask-Cors==4.0.2
 gunicorn==20.1.0
 identify==2.2.10
 idna==2.10
